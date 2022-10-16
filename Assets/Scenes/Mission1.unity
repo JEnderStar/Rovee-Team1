@@ -1131,6 +1131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3a06dea72f835499ab64c7e70eb494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
   controller: {fileID: 1724121539}
   speed: 12
   gravity: -9.81

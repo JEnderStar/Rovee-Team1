@@ -383,7 +383,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: db21ca84e658d0d4c809f8db7c452248,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.966
+      value: 0.757
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: db21ca84e658d0d4c809f8db7c452248,
         type: 3}
@@ -503,7 +503,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.2, z: 0}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!95 &1551898761
 Animator:
   serializedVersion: 4

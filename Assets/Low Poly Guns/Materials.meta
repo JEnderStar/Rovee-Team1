@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Low Poly Guns/Materials.meta
 guid: 0111d8d74912ed140991cd6134b8300d
+========
+guid: 0f583df7160d3eb4a8debf21ea9f577c
+>>>>>>>> amogus:Assets/Low Poly Guns.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

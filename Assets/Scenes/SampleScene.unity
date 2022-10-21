@@ -6482,6 +6482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47011f52cb85d8848a2aeb074cd5d200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
+  range: 100
+  fpsCam: {fileID: 963194227}
 --- !u!1 &1878766736
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,20 +10,19 @@ public class GunScript : MonoBehaviour
     // Update is called once per frame
     void Update()
 
-        if (Input.GetButtonDown("Fire1"))
     {
-        Shoot();
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
     }
-  
-}
-    void Shoot ()
+    void Shoot()
     {
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))   
-
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
         }
 
     }
+}

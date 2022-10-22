@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
+  - RootHinge
+  - CameraHinge
+  - WeaponHinge
+  - Terrain
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -14,21 +18,21 @@ TagManager:
   - UI
   - 
   - 
-  - Hand
-  - Button
+  - First Person Weapon
+  - Physics Shell
   - Enemy
-  - LevelGeometry
+  - Obstacle
   - Player
-  - Grabbable
-  - Lever
-  - VisualSensor
-  - AI_Stimulation_Enemy
-  - AI_Stimulation_Player
-  - IgnoreCollision
-  - Dropzone_Trigger
-  - LaserSword
-  - GrabCollider
-  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - RemoteBody
+  - RemoteFPSBody
+  - PostProcessing
+  - ScopePostProcessing
+  - 
   - 
   - 
   - 

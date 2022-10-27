@@ -1,19 +1,12 @@
-using AuroraFPSRuntime.SystemModules.HealthModules;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthPickup : ObjectHealth
+public class HealthPickup : MonoBehaviour
 {
-    public float amount = 50;
-
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider collider)
     {
-        ObjectHealth health = other.GetComponent<ObjectHealth>();
-        if (health)
-        {
-            health.Heal(amount);
-            Destroy(gameObject);
-        }
+        if (collider.gameObject.tag == "Player");
+        Destroy(gameObject);
     }
 }
